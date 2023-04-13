@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  body{
+    background: rgba(0, 0, 0, 0.5) url(https://assets.nflxext.com/ffe/siteui/vlv3/61e79073-50cf-4f7b-9a23-73290e6f7dca/d0322828-6d63-4f5f-92fb-30f492e7cca4/IN-en-20230410-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-blend-mode: darken;
+  } 
+  
+  .brand__logo {
+    width: 12%;
+    height: 12%;
+    margin-left: 0%;
+    padding-top: 2%;
+    padding-left: 3%;
+  }
+  
+  .container{
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 1%;
+    width: 440px;
+    height: 590px;
+    background-color: #000;
+    opacity: 70%;
+  }
+  
+  .container h1{
+    color: #fff;
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+  
+  input{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 320px;
+    height: 47px;
+    background-color: #333;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+  }
+  
+  input::placeholder{
+    font-size: 17px;
+    margin-left: 15px;
+    padding: 12px;
+  }
+  
+  input[type=submit]{
+    width: 320px;
+    height: 45px;
+    background-color: red;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  
+  input[type=checkbox]{
+    width: 25px;
+    height: 18px;
+    border-radius: 5px;
+  }
+  
+  label{
+    color:rgb(125, 119, 119);
+    align-items: start;
+    
+  }
+  
+  .form a{
+    float: right;
+    margin-top: 2px;
+    margin-right: 4px;
+    color:rgb(125, 119, 119);
+    text-decoration: none;
+  }
+  
+  .content{
+    position: absolute;
+    margin-top: 80px;
+    font-size: 9px;
+    margin-left: 55px;
+  }
+  
+  .content h2{
+    color:rgb(125, 119, 119);
+  }
+  .container a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer {
+    padding: 2rem 20rem;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+  }
+  
+  .footer__row__2 {
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+  
+  .footer__row__1,
+  .footer__row__3,
+  .footer__row__4 {
+    align-self: flex-start;
+  }
+  }
+  
+  @media (min-width: 1254px) {
+  }

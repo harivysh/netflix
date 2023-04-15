@@ -21,99 +21,40 @@
     position: absolute;
     margin-left: 36%;
     margin-top: 1%;
-    width: 440px;
-    height: 590px;
+    width: 460px;
+    height: 490px;
     background-color:#fff;
     
   }
   
   .container h1{
-    color: #fff;
+    color: #000;
     margin-top: 60px;
+    margin-left: 50px;
+    align-items: center;
+  }
+
+  .container p{
+    align-items: center;
+    margin-top: 6px;
     margin-left: 50px;
   }
   
   input{
-    margin-left: 50px;
-    margin-top: 20px;
-    width: 320px;
-    height: 47px;
+    width: 120px;
+    height: 17px;
     background-color: #333;
-    border-radius: 3px;
-    border: none;
-    font-size: 20px;
+    font-size: 90px;
   }
-  
-  input::placeholder{
-    font-size: 17px;
-    margin-left: 15px;
-    padding: 12px;
+  input[type=radio]{
+    color: #333;
+    display: block;
+    line-height: 1.2;
+    padding: 6px 0;
+    padding-top: 6px;
+    padding-right: 0px;
+    padding-bottom: 6px;
+    padding-left: 0px;
+    position: relative;
   }
-  
-  input[type=submit]{
-    width: 320px;
-    height: 45px;
-    background-color: red;
-    color: #fff;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-top: 40px;
-  }
-  
-  input[type=checkbox]{
-    width: 25px;
-    height: 18px;
-    border-radius: 5px;
-  }
-  
-  label{
-    color:rgb(125, 119, 119);
-    align-items: start;
-    
-  }
-  
-  .form a{
-    float: right;
-    margin-top: 2px;
-    margin-right: 4px;
-    color:rgb(125, 119, 119);
-    text-decoration: none;
-  }
-  
-  .content{
-    position: absolute;
-    margin-top: 80px;
-    font-size: 9px;
-    margin-left: 55px;
-  }
-  
-  .content h2{
-    color:rgb(125, 119, 119);
-  }
-  .container a{
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  footer {
-    padding: 2rem 20rem;
-    justify-content: flex-start;
-    text-align: left;
-    align-items: flex-start;
-  }
-  
-  .footer__row__2 {
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-  }
-  
-  .footer__row__1,
-  .footer__row__3,
-  .footer__row__4 {
-    align-self: flex-start;
-  }
-  }
-  
-  @media (min-width: 1254px) {
-  }
+ 
